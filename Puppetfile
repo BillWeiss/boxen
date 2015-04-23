@@ -57,4 +57,13 @@ github "xquartz",     "1.2.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 github "java",        "1.8.2"
-
+github "spotify"
+github "chrome",      "1.2.0"
+github "macvim",      "1.0.0"
+github "vim",         "1.0.5"
+github "iterm2",      "1.2.4"
+github "atom",        "1.2.0"
+github "quicksilver", "1.3.0"
+github "tunnelblick", "1.0.7"
+github "firefox",     "1.2.3"
+github "steam",       "1.0.1"

@@ -84,4 +84,29 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  # local modifications
+  include spotify
+  include chrome
+  include macvim
+  include vim
+  include iterm2::dev
+  include atom
+  include quicksilver
+  include tunnelblick::beta
+  include firefox
+  include steam
+
+  package {
+    [
+      'evernote',
+    ]:
+    provider => 'brewcask',
+  }
+
+  git::config::global { 'user.email':
+	value => 'bweiss@backstopsolutions.com';
+    'user.name':
+        value => 'Bill Weiss';
+  }
 }
