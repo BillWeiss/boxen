@@ -96,7 +96,7 @@ class people::billweiss {
   }
 
   class { 'osx::dock::magnification':
-   magnification_size => 48,
+   magnification_size => 64,
   }
 
   class { 'osx::dock::position':
