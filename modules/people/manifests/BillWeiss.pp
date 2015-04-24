@@ -72,4 +72,42 @@ class people::billweiss {
       source   => 'BillWeiss/dotfiles',
       provider => 'git';
   }
+
+  osx::recovery_message { 'If you find this Mac, please call 312-277-7750': }
+  class { [
+    'osx::global::disable_key_press_and_hold',
+    'osx::global::enable_keyboard_control_access',
+    'osx::global::expand_print_dialog',
+    'osx::global::expand_save_dialog',
+    'osx::global::disable_remote_control_ir_receiver',
+    'osx::global::natural_mouse_scrolling',
+    'osx::dock::clear_dock',
+    'osx::dock::disable_dashboard',
+    'osx::dock::dim_hidden_apps',
+    'osx::finder::unhide_library',
+    'osx::universal_access::ctrl_mod_zoom',
+    'osx::software_update',
+    'osx::keyboard::capslock_to_control',
+    ]: 
+  }
+
+  class { 'osx::dock::icon_size':
+    size => 24,
+  }
+
+  class { 'osx::dock::magnification':
+   magnification_size => 48,
+  }
+
+  class { 'osx::dock::position':
+    position => 'bottom',
+  }
+
+  class { 'osx::dock::pin_position':
+    position => 'middle',
+  }
+
+  osx::dock::hot_corner { 'Bottom Left':
+    action => 'Start Screen Saver',
+  }
 }
