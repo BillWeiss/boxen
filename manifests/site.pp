@@ -113,4 +113,8 @@ node default {
     'user.name':
         value => 'Bill Weiss';
   }
+
+  git::config::global { 'push.default':
+    value => 'matching',
+  }
 }
