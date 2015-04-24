@@ -16,6 +16,7 @@ class people::billweiss {
       'jq',
       'macvim',
       'nmap',
+      'ohmyzsh',
       'python',
       'quicksilver',
       'screen',
@@ -26,6 +27,7 @@ class people::billweiss {
       'tunnelblick::beta',
       'vlc',
       'wget',
+      'zsh',
     ]:
   }
 
