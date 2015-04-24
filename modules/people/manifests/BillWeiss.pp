@@ -26,6 +26,7 @@ class people::billweiss {
       'transmission',
       'tunnelblick::beta',
       'vlc',
+      'vmware_fusion',
       'wget',
       'zsh',
     ]:
