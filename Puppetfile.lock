@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: BillWeiss/puppet-ohmyzsh
+  specs:
+    ohmyzsh (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-adium
   specs:
     adium (1.4.0)
@@ -199,11 +204,6 @@ GITHUBTARBALL
     zsh (1.0.0)
 
 GITHUBTARBALL
-  remote: erivello/puppet-ohmyzsh
-  specs:
-    ohmyzsh (1.0.0)
-
-GITHUBTARBALL
   remote: mloberg/puppet-python
   specs:
     python (3.0.0)
@@ -247,7 +247,7 @@ DEPENDENCIES
   macvim (= 1.0.0)
   module_data (= 0.0.3)
   nmap (>= 0)
-  ohmyzsh (= 1.0.0)
+  ohmyzsh (= 1.0.1)
   openssl (= 1.0.0)
   osx (>= 0)
   pkgconfig (= 1.0.0)
