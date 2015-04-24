@@ -88,7 +88,7 @@ class people::billweiss {
     'osx::universal_access::ctrl_mod_zoom',
     'osx::software_update',
     'osx::keyboard::capslock_to_control',
-    ]: 
+    ]:
   }
 
   class { 'osx::dock::icon_size':
