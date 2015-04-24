@@ -32,13 +32,13 @@ class people::billweiss {
     ]:
   }
 
-
   package {
     [
       'evernote',
     ]:
     provider => 'brewcask',
   }
+
   package {
     [
       'the_silver_searcher',
