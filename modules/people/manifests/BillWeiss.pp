@@ -5,15 +5,15 @@ class people::billweiss {
 
   class {
     [
-      'spotify',
       'chrome',
-      'macvim',
-      'iterm2::dev',
-      'quicksilver',
-      'tunnelblick::beta',
       'firefox',
-      'steam',
+      'iterm2::dev',
+      'macvim',
       'python',
+      'quicksilver',
+      'spotify',
+      'steam',
+      'tunnelblick::beta',
     ]:
   }
 
