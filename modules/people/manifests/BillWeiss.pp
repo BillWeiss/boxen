@@ -3,6 +3,8 @@ class people::billweiss {
 #  include vim
 #  include atom # busted, I don't know.  https://github.com/boxen/puppet-atom/issues/4
 
+  $homedir = "/Users/${boxen_user}"
+
   class {
     [
       'adium',
@@ -52,5 +54,22 @@ class people::billweiss {
       value => 'Bill Weiss';
     'push.default':
       value => 'matching';
+  }
+
+  $repodir = "${homedir}/repos"
+
+  file { $repodir:
+    ensure => directory,
+    owner  => $boxen_user,
+    mode   => 0700,
+  }
+
+  repository {
+    "${repodir}/puppet-BillWeiss":
+      source   => 'BillWeiss/Puppet',
+      provider => 'git';
+    "${repodir}/dotfiles":
+      source   => 'BillWeiss/dotfiles',
+      provider => 'git';
   }
 }
