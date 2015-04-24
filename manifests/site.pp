@@ -96,6 +96,10 @@ node default {
   include tunnelblick::beta
   include firefox
   include steam
+  include python
+
+  # I don't know what this is about, but the vim class clearly needs some pip...
+  Class['python'] -> Class['vim']
 
   package {
     [
