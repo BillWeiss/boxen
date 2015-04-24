@@ -39,7 +39,11 @@ class people::billweiss {
     ]:
     provider => 'brewcask',
   }
-  package { 'the_silver_searcher': }
+  package {
+    [
+      'the_silver_searcher',
+    ]:
+  }
 
   git::config::global { 'user.email':
       value => 'bweiss@backstopsolutions.com';
