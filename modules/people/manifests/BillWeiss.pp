@@ -7,16 +7,22 @@ class people::billweiss {
     [
       'adium',
       'chrome',
+      'cord',
+      'csshx',
       'firefox',
       'flux',
+      'googledrive',
       'iterm2::dev',
       'jq',
       'macvim',
       'nmap',
       'python',
       'quicksilver',
+      'screen',
       'spotify',
       'steam',
+      'tmux',
+      'transmission',
       'tunnelblick::beta',
       'vlc',
       'wget',
@@ -30,6 +36,7 @@ class people::billweiss {
     ]:
     provider => 'brewcask',
   }
+  package { 'the_silver_searcher': }
 
   git::config::global { 'user.email':
       value => 'bweiss@backstopsolutions.com';
