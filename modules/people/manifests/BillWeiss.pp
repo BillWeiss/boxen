@@ -5,15 +5,21 @@ class people::billweiss {
 
   class {
     [
+      'adium',
       'chrome',
       'firefox',
+      'flux',
       'iterm2::dev',
+      'jq',
       'macvim',
+      'nmap',
       'python',
       'quicksilver',
       'spotify',
       'steam',
       'tunnelblick::beta',
+      'vlc',
+      'wget',
     ]:
   }
 

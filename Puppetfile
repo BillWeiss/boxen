@@ -70,3 +70,9 @@ github "steam",       "1.0.1"
 # the official python package is hella broken, see
 # https://github.com/boxen/puppet-python/issues/32
 github "python",      "3.0.0", :repo => "mloberg/puppet-python"
+github "nmap"
+github "jq"
+github "adium"
+github "vlc"
+github "flux"
+github "wget"

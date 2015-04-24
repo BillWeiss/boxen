@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: boxen/puppet-adium
+  specs:
+    adium (1.4.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-atom
   specs:
     atom (1.2.0)
@@ -27,6 +32,11 @@ GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
     firefox (1.2.3)
+
+GITHUBTARBALL
+  remote: boxen/puppet-flux
+  specs:
+    flux (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -64,9 +74,19 @@ GITHUBTARBALL
     java (1.8.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-jq
+  specs:
+    jq (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-macvim
   specs:
     macvim (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-nmap
+  specs:
+    nmap (1.0.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-openssl
@@ -119,6 +139,16 @@ GITHUBTARBALL
     vim (1.0.5)
 
 GITHUBTARBALL
+  remote: boxen/puppet-vlc
+  specs:
+    vlc (1.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-wget
+  specs:
+    wget (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.2.1)
@@ -144,12 +174,14 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
+  adium (>= 0)
   atom (= 1.2.0)
   boxen (= 3.10.2)
   brewcask (= 0.0.6)
   chrome (= 1.2.0)
   dnsmasq (= 2.0.1)
   firefox (= 1.2.3)
+  flux (>= 0)
   gcc (= 2.2.0)
   git (= 2.7.5)
   go (= 2.1.0)
@@ -158,8 +190,10 @@ DEPENDENCIES
   inifile (= 1.1.1)
   iterm2 (= 1.2.4)
   java (= 1.8.2)
+  jq (>= 0)
   macvim (= 1.0.0)
   module_data (= 0.0.3)
+  nmap (>= 0)
   openssl (= 1.0.0)
   pkgconfig (= 1.0.0)
   python (= 3.0.0)
@@ -172,5 +206,7 @@ DEPENDENCIES
   sudo (= 1.0.0)
   tunnelblick (= 1.0.7)
   vim (= 1.0.5)
+  vlc (>= 0)
+  wget (>= 0)
   xquartz (= 1.2.1)
 
