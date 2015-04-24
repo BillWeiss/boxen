@@ -109,9 +109,9 @@ node default {
   }
 
   git::config::global { 'user.email':
-	value => 'bweiss@backstopsolutions.com';
+      value => 'bweiss@backstopsolutions.com';
     'user.name':
-        value => 'Bill Weiss';
+      value => 'Bill Weiss';
   }
 
   git::config::global { 'push.default':
