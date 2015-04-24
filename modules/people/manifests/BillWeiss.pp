@@ -41,6 +41,7 @@ class people::billweiss {
 
   package {
     [
+      'ssh-copy-id',
       'the_silver_searcher',
     ]:
   }
