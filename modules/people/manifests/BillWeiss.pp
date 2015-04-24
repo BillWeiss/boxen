@@ -50,9 +50,7 @@ class people::billweiss {
       value => 'bweiss@backstopsolutions.com';
     'user.name':
       value => 'Bill Weiss';
-  }
-
-  git::config::global { 'push.default':
-    value => 'matching',
+    'push.default':
+      value => 'matching';
   }
 }
