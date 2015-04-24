@@ -89,17 +89,15 @@ node default {
   include spotify
   include chrome
   include macvim
-  include vim
+# says it doesn't conflict with macvim.  Lies.
+#  include vim
   include iterm2::dev
-  include atom
+#  include atom # busted, I don't know.  https://github.com/boxen/puppet-atom/issues/4
   include quicksilver
   include tunnelblick::beta
   include firefox
   include steam
   include python
-
-  # I don't know what this is about, but the vim class clearly needs some pip...
-  Class['python'] -> Class['vim']
 
   package {
     [

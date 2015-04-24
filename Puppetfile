@@ -67,4 +67,6 @@ github "quicksilver", "1.3.0"
 github "tunnelblick", "1.0.7"
 github "firefox",     "1.2.3"
 github "steam",       "1.0.1"
-github "python",      "2.0.0"
+# the official python package is hella broken, see
+# https://github.com/boxen/puppet-python/issues/32
+github "python",      "3.0.0", :repo => "mloberg/puppet-python"
