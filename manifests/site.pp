@@ -1,4 +1,7 @@
-require boxen::environment
+class { 'boxen::environment':
+  relative_bin_on_path => false,
+}
+
 require homebrew
 require gcc
 
