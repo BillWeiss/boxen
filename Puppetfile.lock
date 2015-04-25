@@ -56,12 +56,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
-    gcc (2.2.0)
+    gcc (2.2.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
-    git (2.7.5)
+    git (2.7.8)
 
 GITHUBTARBALL
   remote: boxen/puppet-go
@@ -234,8 +234,8 @@ DEPENDENCIES
   dnsmasq (= 2.0.1)
   firefox (= 1.2.3)
   flux (>= 0)
-  gcc (= 2.2.0)
-  git (= 2.7.5)
+  gcc (= 2.2.1)
+  git (= 2.7.8)
   go (= 2.1.0)
   googledrive (>= 0)
   homebrew (= 1.11.2)
