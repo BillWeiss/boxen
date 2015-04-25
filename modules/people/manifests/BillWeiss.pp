@@ -73,7 +73,7 @@ class people::billweiss {
       provider => 'git';
   }
 
-  osx::recovery_message { 'If you find this Mac, please call 312-277-7750': }
+  osx::recovery_message { 'If you find this Mac, please call 312-277-7700': }
   class { [
     'osx::global::disable_key_press_and_hold',
     'osx::global::enable_keyboard_control_access',
