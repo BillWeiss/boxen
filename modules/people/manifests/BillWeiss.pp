@@ -43,6 +43,7 @@ class people::billweiss {
 
   package {
     [
+      'pwgen',
       'shellcheck',
       'ssh-copy-id',
       'the_silver_searcher',
